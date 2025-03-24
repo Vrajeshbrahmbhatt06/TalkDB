@@ -2,7 +2,7 @@
 
 This repository contains a Jupyter Notebook that extracts table schema from an SQLite database, generates a structured training plan, and uses an LLM to generate the results along with follow-up questions for SQL queries. It is designed to help users interact with databases more effectively by summarizing their structure and suggesting meaningful follow-up queries.
 
-For detailed explanation of how this project works, including code walkthrough and implementation details, check out my [Medium article](https://medium.com/@yourusername/talking-with-your-database-made-easy-using-langchain-hugging-face-and-chromadb).
+For detailed explanation of how this project works, including code walkthrough and implementation details, check out my [Medium article](https://medium.com/@vrajesh_b15/talking-with-your-database-using-llms-langchain-and-chromadb-d1ef08edde62).
 
 ## Overview
 
@@ -33,7 +33,7 @@ TalkDB creates a conversation-like interface to your SQL databases. Simply ask q
 
 ## Configuration
 You'll need:
-- OpenAI API credentials (which can be swapped with open-source LLMs like Gemini)
+- OpenAI API credentials (which can be replaced with Google's Gemini API using a free key from Google AI Studio or any other open-source LLMs)
 - A SQL database connection (check the notebook for an example using the publicly available Chinook database)
 - Basic Python environment
 
